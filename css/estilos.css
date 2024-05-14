@@ -1,0 +1,214 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.sacola {
+    background: url(../img/sacola.png) no-repeat top right;
+    font-size: 14px;
+    padding-top: 4px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.menu-opcoes ul {
+    font-size: 15px;
+}
+
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu-opcoes a {
+    color: #036;
+}
+
+.container {
+    margin: 0 auto;
+    width: 850px;
+}
+
+header {
+    position: relative;
+    align-items: center;
+}
+
+.busca,
+.menu-departamentos {
+    background-color: #dcdcdc;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    margin-right: 10px;
+    width: 242px;
+}
+
+.busca h2,
+.busca form,
+.menu-departamentos h2 {
+    margin: 10px;
+    margin-bottom: 0;
+    
+}
+
+.menu-departamentos li {
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 4px 10px;
+    
+}
+
+.menu-departamentos li:hover {
+    background-color: #dcdcdc;
+    margin-bottom: 1px;
+    padding: 4px 10px;
+    
+}
+
+.menu-departamentos ul {
+    background-color: white;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.menu-departamentos a {
+    color: #333;
+    text-decoration: none;
+}
+
+.busca input {
+    vertical-align: middle;
+}
+
+.busca input[type=search] {
+    width: 170px;
+    border-radius: 15px;
+    border-width: 2px;
+}
+
+.busca,
+.menu-departamentos {
+    float: left;
+}
+
+.busca {
+    height: 80px;
+}
+
+.menu-departamentos {
+    clear: left;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    height: 40px;
+}
+
+.destaque {
+    margin-top: 10px;
+}
+
+.promocao {
+    width: 485px;
+}
+
+.painel {
+    background-color: aqua;
+    position: relative;
+    width: 54%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2%;
+}
+
+.painel li {
+    display: inline-block;
+    width: 140px;
+    position: relative;
+    vertical-align: top;
+    left: -33px;
+    margin-right: 8%;
+    padding-bottom: 10px;
+}
+
+.painel a{
+    text-decoration: none;
+}
+
+.painel figure figcaption {
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    width: 100px;
+    margin-left: 28%;
+}
+
+.painel section {
+    width: 48%;
+}
+
+.novidades {
+    background-color: #f5dcdc;
+    float: left;
+
+}
+
+.mais-vendidos {
+    background-color: #dcdcf5;
+    float: right;
+}
+
+.painel h2 {
+    font-size: 30px;
+    margin: 5% 8% 0%;
+}
+
+footer {
+    background-image: url(../img/fundo-rodape.png);
+    clear: both;
+    padding: 20px 0;
+}
+
+footer .container {
+    position: relative;
+}
+
+.social {
+    position: absolute;
+    top: -8px;
+    right: 0;
+}
+
+.social li {
+    float: left;
+    margin-left: 25px;
+}
+
+.social a {
+    height: 32px;
+    width: 32px;
+
+    display: block;
+    text-indent: -9999px;
+}
+
+.social a[href*="facebook.com"] {
+    background-image: url(../img/facebook.png);
+}
+
+.social a[href*="twitter.com"] {
+    background-image: url(../img/twitter.png);
+}
+
+.social a[href*="plus.google.com"] {
+    background-image: url(../img/googleplus.png);
+}
