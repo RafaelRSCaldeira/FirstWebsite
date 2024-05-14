@@ -3,6 +3,11 @@ body {
     color: #333;
 }
 
+header {
+    position: relative;
+    align-items: center;
+}
+
 .sacola {
     background: url(../img/sacola.png) no-repeat top right;
     font-size: 14px;
@@ -39,11 +44,6 @@ body {
     width: 850px;
 }
 
-header {
-    position: relative;
-    align-items: center;
-}
-
 .busca,
 .menu-departamentos {
     background-color: #dcdcdc;
@@ -67,6 +67,19 @@ header {
     margin-bottom: 1px;
     padding: 4px 10px;
     
+}
+
+.menu-departamentos nav ul li::before {
+    content: '- ';
+}
+
+.menu-departamentos nav ul li ul {
+    display: none;
+    margin-top: 8px;
+}
+
+.menu-departamentos nav ul li:hover ul {
+    display: block;
 }
 
 .menu-departamentos li:hover {
@@ -124,10 +137,11 @@ header {
 .painel {
     background-color: aqua;
     position: relative;
+    clear: both;
     width: 54%;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 2%;
+    margin-top: 10%;
 }
 
 .painel li {
@@ -154,22 +168,27 @@ header {
 
 .painel section {
     width: 48%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px #999;
 }
 
 .novidades {
     background-color: #f5dcdc;
+    background: linear-gradient(#f5dcdc, #bebef4);
     float: left;
 
 }
 
 .mais-vendidos {
     background-color: #dcdcf5;
+    background: linear-gradient(#dcdcf5, #f4bebe);
     float: right;
 }
 
 .painel h2 {
     font-size: 30px;
     margin: 5% 8% 0%;
+    text-shadow: 3px 3px 2px #FFF;
 }
 
 footer {
