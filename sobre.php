@@ -6,32 +6,14 @@
         <link rel="stylesheet" href="css/sobre.css">
     </head>
     <body>
-        <header class="container">
-            <h1><a href="index.html"><img src="img/logo.png" alt="Mirror Fashion"></a></h1>
-    
-            <p class="sacola">
-    
-                Nenhum item na sacola de compras
-            </p>
-    
-            <nav class="menu-opcoes">
-                <ul>
-                    <a href="index.html"><li>Inicio</li></a>
-                    <a href="#"><li>Sua Conta</li></a>
-                    <a href="#"><li>Lista de Desejos</li></a>
-                    <a href="#"><li>Cartão Fidelidade</li></a>
-                    <a href="sobre.html"><li>Sobre</li></a>
-                    <a href="#"><li>Ajuda</li></a>
-                </ul>
-            </nav>
-        </header>
+        <?php include("cabecalho.php");?>
         
         <h1 id="title"> A Mirror Fashion</h1>
 
         <p>
             A <strong>Mirror Fashion</strong> é a maior empresa 
             comércio eletrônico no segmento de moda em todo o mundo. 
-            Fundada em 1932, possui filiais em 124 países, sendo 
+            Fundada há <?php print date("Y") - 1932?> anos, possui filiais em 124 países, sendo 
             líder de mercado com mais de 90% de participação em 118 deles.
         </p>
 
@@ -112,9 +94,7 @@
             <li>Mais de um milhão de funcionários em todo o mundo</li>
         </ul>
 
-        <div id="rodape">
-            <img src="img/logo-rodape.png">
-            &copy; Copyright Mirror Fashion
-        </div>
+        
+        <?php include("rodape.php");?>
     </body>
 </html>

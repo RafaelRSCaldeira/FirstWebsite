@@ -194,7 +194,10 @@ header {
 footer {
     background-image: url(../img/fundo-rodape.png);
     clear: both;
-    padding: 20px 0;
+    padding: 1.4% 12%;
+    position: absolute;
+    width: 76%;
+    left:0;
 }
 
 footer .container {
