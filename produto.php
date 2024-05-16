@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mirror Fashion</title>
         <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="css/produto.css">
     </head>
     <body>
         <?php include("cabecalho.php");?>
@@ -31,6 +32,8 @@
                         <img src="img/produtos/foto2-azul.png" alt="azul>">
                     </label>
                 </fieldset>
+
+                <input type="submit" class="comprar" value="Comprar">
             </form>
         </div>
 
