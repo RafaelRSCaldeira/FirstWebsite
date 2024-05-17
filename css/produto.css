@@ -1,6 +1,7 @@
 .cores {
     position: relative;
     padding-top: 90px;
+    border: 0;
 }
 
 .cores label::after {
@@ -47,6 +48,14 @@ label[for=azul]::after {
 .cores label img {
     display: block;
     max-width: 100%;
+    margin-right: 0;
+    border: 2px solid #ccc;
+}
+
+.produto-back {
+    background-color: #F2F2F2;
+    margin-top: 1em;
+    border-top: 2px solid #ccc;
 }
 
 .produto {
@@ -58,12 +67,14 @@ label[for=azul]::after {
 .produto h1 {
     font-size: 1.8em;
     font-weight: bold;
+    margin-bottom: 0;
 }
 
 .produto p {
     font-size: 1.2em;
     font-style: italic;
     margin-bottom: 1em;
+    margin-top: 0;
 }
 
 .produto legend {
@@ -94,4 +105,94 @@ label[for=azul]::after {
 
 .cores label:hover::after {
     border: 6px solid rgba(0, 0, 0, 0.1)
+}
+
+.detalhes {
+    padding: 2em 0;
+}
+
+.detalhes h2 {
+    font-size: 1.5em;
+    line-height: 2;
+    margin-bottom: 0;
+}
+
+.detalhes p {
+    margin: 1em 0;
+    font-size: 1em;
+    line-height: 1.5;
+    max-width: 42em;
+    text-align: justify;
+    margin-top: 0;
+}
+
+table {
+    border-spacing: 0.2em;
+    border-collapse: separate;
+}
+
+thead {
+    background-color: #999;
+}
+
+thead th {
+    font-weight: bold;
+    padding: 0.3em 1em;
+    text-align: center;
+}
+
+td {
+    padding: 0.3em 0.6em;
+}
+
+tr:nth-child(2n) {
+    background-color: #ccc;
+}
+
+td:first-child {
+    font-style: italic;
+}
+
+@media (min-width: 630px) {
+    .produto {
+        position: relative;
+        padding-left: 40%;
+        font-size: 1.2em;
+    }
+
+    .cores {
+        position: static;
+        padding: 0;
+    }
+
+    .cores legend {
+        position: static;
+    }
+
+    .cores label img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        max-width: 35%;
+        max-height: 100%;
+    }
+
+    .cores label::after {
+        position: static;
+        float: left;
+        margin-right: 10px;
+    }
+
+    .detalhes {
+        font-size: 1.2em;
+    }
+
+    fieldset {
+        display: inline-block;
+        vertical-align: top;
+        margin: 1em 0;
+        min-width: 200px;
+        width: 45%;
+    }
+
 }
