@@ -50,7 +50,7 @@
                 <h2>Novidades</h2>
                 <ol>
                     <li>
-                        <a href="produto.html">
+                        <a href="produto.php">
                             <figure>
                                 <img src="img/produtos/miniatura1.png">
                                 <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
@@ -59,7 +59,7 @@
                     </li>
 
                     <li>
-                        <a href="produto.html">
+                        <a href="produto.php">
                             <figure>
                                 <img src="img/produtos/miniatura2.png">
                                 <figcaption>Camiseta por R$ 59,90</figcaption>
@@ -68,7 +68,7 @@
                     </li>
 
                     <li>
-                        <a href="produto.html">
+                        <a href="produto.php">
                             <figure>
                                 <img src="img/produtos/miniatura3.png">
                                 <figcaption>Casaco leve por R$ 99,90</figcaption>
@@ -77,7 +77,7 @@
                     </li>
 
                     <li>
-                        <a href="produto.html">
+                        <a href="produto.php">
                             <figure>
                                 <img src="img/produtos/miniatura4.png">
                                 <figcaption>Casaco de frio por R$ 159,90</figcaption>
@@ -86,7 +86,7 @@
                     </li>
 
                     <li>
-                        <a href="produto.html">
+                        <a href="produto.php">
                             <figure>
                                 <img src="img/produtos/miniatura5.png">
                                 <figcaption>Regata azul por R$ 39,90</figcaption>
@@ -95,7 +95,7 @@
                     </li>
 
                     <li>
-                        <a href="produto.html">
+                        <a href="produto.php">
                             <figure>
                                 <img src="img/produtos/miniatura8.png">
                                 <figcaption>Camiseta por R$ 49,90</figcaption>
@@ -109,7 +109,7 @@
                 <h2>Mais Vendidos</h2>
                 <ol>
                     <li>
-                        <a href="produto.html">
+                        <a href="produto.php">
                             <figure>
                                 <img src="img/produtos/miniatura1.png">
                                 <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
@@ -118,7 +118,7 @@
                     </li>
 
                     <li>
-                        <a href="produto.html">
+                        <a href="produto.php">
                             <figure>
                                 <img src="img/produtos/miniatura2.png">
                                 <figcaption>Camiseta por R$ 59,90</figcaption>
@@ -127,7 +127,7 @@
                     </li>
 
                     <li>
-                        <a href="produto.html">
+                        <a href="produto.php">
                             <figure>
                                 <img src="img/produtos/miniatura3.png">
                                 <figcaption>Casaco leve por R$ 99,90</figcaption>
@@ -136,7 +136,7 @@
                     </li>
 
                     <li>
-                        <a href="produto.html">
+                        <a href="produto.php">
                             <figure>
                                 <img src="img/produtos/miniatura4.png">
                                 <figcaption>Casaco de frio por R$ 159,90</figcaption>
@@ -145,7 +145,7 @@
                     </li>
 
                     <li>
-                        <a href="produto.html">
+                        <a href="produto.php">
                             <figure>
                                 <img src="img/produtos/miniatura5.png">
                                 <figcaption>Regata azul por R$ 39,90</figcaption>
@@ -154,7 +154,7 @@
                     </li>
 
                     <li>
-                        <a href="produto.html">
+                        <a href="produto.php">
                             <figure>
                                 <img src="img/produtos/miniatura8.png">
                                 <figcaption>Camiseta por R$ 49,90</figcaption>

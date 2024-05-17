@@ -1,6 +1,6 @@
 <header class="container">
         <h1>
-            <a href="index.html">
+            <a href="index.php">
                 <img src="img/logo.png" alt="Mirror Fashion">
             </a>
         </h1>

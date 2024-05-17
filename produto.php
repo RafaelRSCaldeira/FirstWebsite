@@ -9,7 +9,7 @@
     </head>
     <body>
         <?php include("cabecalho.php");?>
-        <div class="poduto-back">
+        <div class="produto-back">
             <div class="container">
                 <div class="produto">
                     <h1>Cardigan Thelure Basic</h1>
@@ -18,6 +18,7 @@
                     <form action="checkout.php" method="POST">
                         <input type="hidden" name="nome" value="Fuzzy Cardigan">
                         <input type="hidden" name="preco" value="129.00">
+                        <input type="hidden" name="id" value="3">
                         <fieldset class="cores">
                             <legend>Escolha o tamanho:</legend>
                             <input type="radio" name="cor" value="verde" id="verde" checked>
