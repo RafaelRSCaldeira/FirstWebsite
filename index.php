@@ -165,6 +165,8 @@
             </section>
         </div>
     </main>
-
+    <script src="js/converteMoeda.js"></script>
+    <script src="js/testaConversao.js"></script>
+    <script src="js/troca-banner.js"></script>
 </body>
 </html>
