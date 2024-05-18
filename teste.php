@@ -7,11 +7,11 @@
     <title>Teste</title>
 </head>
 <body>
-    <div class="jumbotron">
-        <div class="container">
-            <h1>Ótima escolha</h1>
-            <p>Obrigado por comprar na Mirror Fashion.</p>
-        </div>
-    </div>
+    <script>
+        alert("Hello world")
+    </script>
+
+    <h1>Aula de JS</h1>
+    <h2>ASDASDSDA</h2>
 </body>
 </html>
